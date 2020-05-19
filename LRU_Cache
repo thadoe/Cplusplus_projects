@@ -1,3 +1,6 @@
+// My solution for " Least Recently Used CLRU)" Cache problem from Hackerrank C++ 
+// refer to https://www.hackerrank.com/challenges/abstract-classes-polymorphism/problem
+
 class LRUCache : public Cache{
     public:
         LRUCache (int a){cp = a;
